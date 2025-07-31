@@ -1,0 +1,244 @@
+body {
+  font: 400 17px "Roboto", sans-serif;
+  /* font-size: 16px;
+font-family: "Roboto", sans-serif;
+font-weight: 400; */
+  background-color: #99b183;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+
+@media (max-width: 650px) {
+  .card {
+padding: 1px 10px 10px 30px;
+text-align: center;
+  }}
+
+.navbar {
+  background: white;
+}
+
+.photo1 {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.card {
+  border-radius: 40px;
+  border-right: 10px solid #ffffff;
+  border-left: 10px solid #ffffff;
+  background: #cbe0ba;
+  padding: 3px 30px 20px 50px;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  width: 800px;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.name {
+  color: rgb(39, 39, 39);
+  padding-left: 30px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-text {
+margin-top: 20px;
+
+}
+
+.social-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  display: block;
+  margin-left: 20px;
+}
+
+
+.about-content p {
+font-style: italic;
+}
+
+
+.card p {
+  color: rgb(39, 39, 39);
+}
+
+.socials {
+  display: flex;
+  gap: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.hobbies {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+
+.hobbies li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid;
+  width: 400px;
+  padding-left: 30px;
+  padding-bottom: 4px;
+  color: rgb(51, 50, 50);
+}
+
+.card h3 {
+  text-align: center;
+  color: rgb(39, 39, 39);
+  padding-bottom: 10px;
+}
+
+a:active {
+  color: white;
+}
+
+a:hover {
+  color: rgb(190, 190, 190);
+}
+
+
+
+.table {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #ffffff;
+  border-collapse: separate;
+  border-spacing: 0; 
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.table th {
+  color: rgb(39, 39, 39);
+  padding: 10px 30px; 
+  text-align: center;
+  border: none;
+}
+
+.table td {
+  padding: 5px 30px;
+  color: rgb(39, 39, 39);
+  text-align: left;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+} 
+
+.table th:first-child {
+  border-top-left-radius: 20px;
+}
+
+.table th:last-child {
+  border-top-right-radius: 20px;
+}
+
+.table tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+.table tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+.table td:last-child {
+  border-right: none;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #fffffe;
+  color: rgb(44, 42, 42);
+  border-radius: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.6s ease;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto";
+  display: flex;
+  margin-left: 42%;
+}
+
+.btn:hover {
+  background-color: #cbe0ba;
+  /* opacity: .8; */
+}
+
+.bg-1 {
+  background: #cdddac;
+}
+
+.bg-2 {
+  background: #cdddac;
+}
+
+.fntitalik {
+  font-style: italic;
+}
+
+.textme {
+border-radius: 30px;
+padding: 15px 20px;
+font: 15px "Roboto", sans-serif;
+justify-content: center;
+align-items: center; 
+width: 350px;
+}
+
+.textbox {
+font: 17px "Roboto", sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center; 
+margin-bottom: 5px;
+}
+
+.textbox label {
+margin-bottom: 10px;
+font: bold 17px "Roboto", sans-serif;
+color: rgb(39, 39, 39);
+}
+
+.inputs {
+background: rgb(255, 255, 255);
+font: 17px "Roboto", sans-serif;
+border: black solid 1px;
+padding: 10px;
+border-radius: 30px;
+max-width: 50%;
+margin: 5px auto;
+}
+
+.datas {
+padding-right: 10px;
+
+
+}

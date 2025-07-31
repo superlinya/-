@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="проекты, резюме, фронтенд-разработчик, кандидат"
+    />
+    <meta
+      name="description"
+      content="Это резюме Лины для устройства на работу"
+    />
+    <link rel="stylesheet" href="01_CV.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Suranna&display=swap");
+    </style>
+    <title>Резюме</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="card bg-1 aboutme">
+        <div class="about-content">
+          <img src="Liphoto.jpg" width="250" alt="моёфото" class="photo1" />
+          <div class="about-text">
+            <h2 class="name">Черкашина Лина</h2>
+
+            <p>
+              Мне 25 лет и я люблю своих <strong>котов</strong>, играть на
+              фортепиано, гитаре, играть в игры и петь.
+            </p>
+
+            <p>
+              Я работаю <strong><em>менеджером</em></strong> в трансферной
+              компании, но хочу попробовать себя в <strong>разработке</strong>.
+            </p>
+            
+            <p class="social-title"><strong>Список социальных сетей:</strong></p>
+            <div class="socials">
+              <a href="https://vk.com/id639643895" target="_blank"> VK</a> |
+              <a href="https://steamcommunity.com/id/linaormalina/" target="_blank"> Steam</a> |
+              <a href="https://github.com/superlinya" target="_blanc"> GitHub</a>
+          </div>
+          </div>
+          </div>
+          </div>
+
+      <div class="card bg-2" id="hobbie">
+        <h3>Мои хобби</h3>
+        <ul class="hobbies">
+          <li>Игры</li>
+          <li>Музыка</li>
+          <li>Иностранные языки</li>
+          <li>Грамматика</li>
+        </ul>
+      </div>
+
+      <div class="card bg-2" id="exp">
+        <h3>Опыт работы</h3>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Умназия</td>
+            <td>Ментор и асессор</td>
+            <td>2020-2022</td>
+          </tr>
+          <tr>
+            <td>МАОУСОШ №2</td>
+            <td>Преподаватель английского</td>
+            <td>2022-2023</td>
+          </tr>
+          <tr>
+            <td>Kiwitaxi</td>
+            <td>Менеджер-переводчик</td>
+            <td>2024-по настоящее время</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-1 fntitalik contacts" id="contact">
+        <h3>Связаться со мной:</h3>
+
+        <form>
+          <div class="inputs">
+            <label for="name" class="datas"> Ваше имя: </label>
+            <input type="text" id="name" placeholder="Введите ваше имя" />
+          </div>
+
+          <br />
+
+          <div class="inputs">
+            <label for="email" class="datas"> Ваш email: </label>
+            <input type="email" id="email" placeholder="Введите вашу почту" />
+          </div>
+<br />
+          <div class="textbox">
+            <label for="message" > Сообщение: </label>
+
+            <textarea
+            class="textme"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Напишите какая я молодец"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
